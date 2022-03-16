@@ -16,6 +16,9 @@ header {
 
 header img {
   max-height: 100px;
+  position: relative;
+  top: -30px;
+  left: -40px;
 }
 header button {
   height: 50px;
