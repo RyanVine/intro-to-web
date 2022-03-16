@@ -1,1 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #fefdf8;
+  box-sizing: border-box;
+  font-family: Ibm Plex Sans, sans-serif;
+  color: #394167;
+}
 
+header {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+header img {
+  max-height: 100px;
+}
+header button {
+  height: 50px;
+  width: 150px;
+  border: 1.5px solid #394167;
+  font-size: 16px;
+  color: #394167;
+}
+
+.heading {
+  margin: 50px;
+  color: #1bb9f1;
+  font-family: nunito, sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+main img {
+  max-height: 500px;
+  margin: 50px;
+}
