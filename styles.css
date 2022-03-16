@@ -23,6 +23,7 @@ header button {
   border: 1.5px solid #394167;
   font-size: 16px;
   color: #394167;
+  border-radius: 10px;
 }
 
 .heading {
@@ -39,6 +40,36 @@ main {
 }
 
 main img {
-  max-height: 500px;
-  margin: 50px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.list1 {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+}
+.list2 {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+}
+.list3 {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+}
+.list4 {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
 }
